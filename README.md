@@ -8,6 +8,7 @@ Mobile robots are expected to move freely within the environment and interpret i
 
 ## Lego NTX
 The robot used in this project is a prebuilt automaton with extendible components based on Lego NXT platform. Use of this hardware enabled component modularity and a use of well-documented Java API to program its behaviour - leJOS. The components include:
+
 | **Module**        | Description   |
 | -                 | -             |
 | **Body**          | The main component of the robot that includes the processing unit, a display screen, components ports, buttons for basic control of the robot, and a USB port that enables to transfer compiled code from a computer to the robot for execution |
@@ -27,6 +28,7 @@ The problem faced by the robot is called ”Grid World”. The goal is to explor
 
 ## Contents
 The software developed to complete the problem was divided into four Java classes:
+
 | **File**          | Description   |
 | -                 | -             |
 | **MazeRunner**    | The main class that implements the DFS, instantiates all classes with sampled prior parameters and handles their synchronised execution |
